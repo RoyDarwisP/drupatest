@@ -1,0 +1,16 @@
+<?php 
+
+/**
+ * Implements hook_theme().
+ */
+function testing_module_theme() {
+  return [
+    'custom_block' => [
+      'variables' => [
+        'data' => [],
+      ],
+    ],
+  ];
+}
+
+?>
